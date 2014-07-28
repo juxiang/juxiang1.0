@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><{$_GET['wxcats']}></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+     <script src="__JS__/jquery-1.11.0.js"></script> 
+	 <script src="__JS__/jquery.mobile-1.4.2.min.js"></script> 
+	 <link href="__CSS__/jquery.mobile-1.4.2.min.css" rel="stylesheet"> 
+</head>
+<body> 
+<div data-role="page" id="pageone">
+	<ul data-role="listview">
+				<foreach name='list' item='vo'>
+				<li onclick="setbackgroud(<{$vo.id}>)" data-icon="" id="li<{$vo.id}>"><a href="__URL__/main/wxcats/<{$_GET['wxcats']}>#panel<{$vo.id}>" style="font-size:14px" target="main1" id="list<{$vo.id}>" ><{$vo.cname}></a></li>
+				</foreach>
+	</ul> 
+</div>
+<script language="JavaScript">
+//加载页面后，初始化
+window.onload=init();
+//初始化函数，设置第一个为默认，背景色为蓝,去掉小箭头
+function init(){
+	var x=document.getElementsByTagName("a");
+	//var y=document.getElementsByTagName("li");
+	x[0].style.background='blue';
+	$("a:first").attr("class","ui-btn ");
+	//y[0].data-icon='false';
+	//alert(y);
+	}
+//设置背景色,去掉小箭头
+function setbackgroud(id){
+	//alert(id);
+	clearlist();
+	var y=$("#list"+id).attr("class","ui-btn ");
+	document.getElementById("list"+id).style.background="blue";
+	}
+//清除所有a标签的背景色，都有小箭头
+function clearlist(){
+		$("a").attr("class","ui-btn ui-btn-icon-right ui-icon-carat-r");
+		var x=document.getElementsByTagName("a");
+		//var y=document.getElementsByTagName("li");
+		for(var i=0;i<x.length;i++){
+		x[i].style.background="";
+		}
+		
+	}
+</script>
+</body>
+</html>

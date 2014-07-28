@@ -1,0 +1,31 @@
+<extend name="Public:base" />
+<block name="title"><title>前端显示</title></block>
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+<block name="script">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#collapseThree').addClass('in');
+			$('#collapseOne').removeClass('in');
+			$('#collapseTwo').removeClass('in');
+		});
+	</script>
+</block>
+<block name="content">
+	<div id="content" class="col-sm-8">
+		<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i>前端显示</h4>
+				</div>
+			<div class="panel-body">
+		<volist name='wx_cats' id='wx_cats'>
+	点击进行预览：<a  class='btn btn-primary' href="<{:U(GROUP_NAME.'/Wxdisplay/index',array('wxcats'=>$wx_cats[0],'uid'=>session('uid')))}>" target='_blank'><{$wx_cats.0}></a><br /><br />
+	</volist>
+	<strong>请将预览的链接，固定到微信二级菜单的url</strong>
+	<hr/>
+	
+	</div>
+</div>
+</div>
+</block>

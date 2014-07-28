@@ -1,0 +1,92 @@
+<div id="sidebar" class="col-sm-3">
+	<div class="panel-group" id="accordion">
+			<div class="panel panel-primary">
+			    <div class="panel-heading">
+			     	<h4 class="panel-title">
+			       		<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="glyphicon glyphicon-user"></i> 客 户 管 理</a>
+			      	</h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in">
+				      	<div class="panel-body">
+				         	<ul class=" nav nav-pills nav-stacked">
+					          	<li><a href="<{:U(GROUP_NAME.'/Member/memberList')}>">客户信息</a></li>
+				      		</ul>
+				     	 </div>
+			    </div>
+			</div>
+ 		<!--<div class="panel panel-primary">
+		    <div class="panel-heading">
+		        <h4 class="panel-title">
+			        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i class="glyphicon glyphicon-list"></i> 权 限 管 理
+			        </a>
+		     	</h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse">
+		     	<div class="panel-body">
+			      	<ul class=" nav nav-pills nav-stacked">
+			          	<li><a href="<{:U('Admin/Auth/accessList')}>">权限列表</a></li>
+			      		<li><a href="<{:U('Admin/Auth/accessAdd')}>">添加权限</a></li>
+			      		<li><a href="<{:U('Admin/Auth/groupList')}>">角色管理</a></li>
+			      	</ul>
+		      	</div>
+		    </div>
+		  </div> -->
+		<div class="panel panel-primary">
+		    <div class="panel-heading">
+		        <h4 class="panel-title">
+			        <a data-toggle="collapse" data-toggle="collapse " data-parent="#accordion" href="#collapseThree"><i class="glyphicon glyphicon-cloud"></i> 微信设置管理
+			        </a>
+		     	</h4>
+		    </div>
+		    <div id="collapseThree" class="panel-collapse collapse ">
+		     	<div class="panel-body">
+			      	<ul class=" nav nav-pills nav-stacked">
+			          	<li><a href="<{:U(GROUP_NAME.'/Wxconf/buttons')}>">微信自定义菜单列表</a></li>
+						<if condition="$Think.session.admin eq admin">
+						<li><a href="<{:U(GROUP_NAME.'/Wxconf/addbutton1')}>">微信自定义一级菜单添加</a></li>
+						<li><a href="<{:U(GROUP_NAME.'/Wxconf/wxconf')}>">基本参数设置</a></li>
+						</if>
+						<li><a href="<{:U(GROUP_NAME.'/Wxconf/addbutton2')}>">微信自定义二级菜单添加</a></li>
+			      		<li><a href="<{:U(GROUP_NAME.'/Wxconf/index')}>">微信显示预览</a></li>
+			      	</ul>
+		      	</div>
+		    </div>
+		  </div>
+		  
+		  <div class="panel panel-primary">
+		    <div class="panel-heading">
+		        <h4 class="panel-title">
+			        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><i class="glyphicon glyphicon-asterisk"></i> 产品管理
+			        </a>
+		     	</h4>
+		    </div>
+		    <div id="collapseFour" class="panel-collapse collapse">
+		     	<div class="panel-body">
+			      	<ul class=" nav nav-pills nav-stacked">
+			          	<li><a href="<{:U(GROUP_NAME.'/Cats/index')}>">分类列表</a></li>
+						<li><a href="<{:U(GROUP_NAME.'/Cats/add')}>">分类添加</a></li>
+						<li><a href="<{:U(GROUP_NAME.'/Dishes/index')}>">产品列表</a></li>
+			      		<li><a href="<{:U(GROUP_NAME.'/Dishes/add')}>">产品添加</a></li>
+			      		<li><a href="<{:U(GROUP_NAME.'/Product/index')}>">详细产品列表</a></li>
+						<li><a href="<{:U(GROUP_NAME.'/Product/add')}>">详细产品添加</a></li>
+			      	</ul>
+		      	</div>
+		    </div>
+		  </div>
+		  <div class="panel panel-primary">
+		    <div class="panel-heading">
+		        <h4 class="panel-title">
+			        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><i class="glyphicon glyphicon-asterisk"></i> 公司管理
+			        </a>
+		     	</h4>
+		    </div>
+		    <div id="collapseFive" class="panel-collapse collapse">
+		     	<div class="panel-body">
+			      	<ul class=" nav nav-pills nav-stacked">
+			          	<li><a href="<{:U(GROUP_NAME.'/Connect/index')}>">关于公司</a></li>
+			      	</ul>
+		      	</div>
+		    </div>
+		  </div>
+		</div>
+	</div>	

@@ -1,0 +1,58 @@
+<extend name="Public:base" />
+<block name="title"><title>产品列表</title></block>
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+<block name="script">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#collapseFour').addClass('in');
+			$('#collapseOne').removeClass('in');
+			$('#collapseTwo').removeClass('in');
+			$('#collapseThree').removeClass('in');
+		});
+	</script>
+</block>
+<block name="content">
+		<div id="content" class="col-sm-8">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i> 产品列表</h4>
+				</div>
+
+				<div class="panel-body">
+	<table class="table table-hover table-bordered table-condensed">
+		<tr>
+		<!-- <th >微信菜单</th> -->
+		<th >分	   类</th>
+		<th >产	品	名</th>
+		<th >产品详情</th>
+		<th >产品图片</th>
+		<th >操	   作</th>
+		</tr>
+<volist name='dishes' id='vo'>
+<form class="form-horizontal" action="<{:U(GROUP_NAME.'/Dishes/update',array('did'=>$vo['id']))}>" method='post' enctype='multipart/form-data'>
+	<tr>
+		<!-- <td ><input type='text' name='wx_cats' value='<{$vo.wx_cats}>' disabled></td> -->
+		<td ><input type='text' name='cats' value='<{$vo.cname}>' disabled></td>
+		<td ><input type='text' name='dname' value='<{$vo.dname}>'></td>
+		<td ><if condition="$vo['isset'] eq 1"> <a href="<{:U($vo['url'])}>" target="_blank">预览</a>
+			<else /> <a href="<{:U(GROUP_NAME.'/Product/add2',array('did'=>$vo['id']))}>" ><font color="red">设置</font></a>
+			</if></td>
+		<td ><img src="__ROOT__<{$vo['picpath']}>" height=50 width=50 /></td>
+		<td>
+		<div class="btn-group btn-group-xs">
+			<input type='submit' value='修改' class="btn btn-warning"/>
+			<a href="<{:U(GROUP_NAME.'/Dishes/delete',array('did'=>$vo['id']))}>" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+		</div>
+		</td>
+	</tr>
+</form>	
+  </volist>
+    <tr>
+	<td colspan="6"><{$show}></td>
+	</tr>
+  </table>
+			</div>
+		</div>
+</block>

@@ -1,0 +1,65 @@
+<extend name="Public:base" />
+<block name="title"><title>详细产品列表</title></block>
+<block name="script">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#collapseFour').addClass('in');
+			$('#collapseOne').removeClass('in');
+			$('#collapseTwo').removeClass('in');
+			$('#collapseThree').removeClass('in');
+		});
+	</script>
+</block>
+
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+
+<block name="content">
+		<div id="content" class="col-sm-8">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i> 详细产品列表</h4>
+				</div>
+
+				<div class="panel-body">
+	<table class="table table-hover table-bordered table-condensed">
+		<tr>
+		<th >公司LOGO</th>
+		<th >微信二级菜单</th>
+		<th> 所属分类</th>
+		<th >产品名</th>
+		<th>产品展示图</th>
+		<th >产品预览</th>
+		<th >操	   作</th>
+		</tr>
+<volist name="products" id='vo'>
+<form class="form-horizontal" action="<{:U('Product/update',array('id'=>$vo['id']))}>" method='post' enctype='multipart/form-data'>
+	<tr>
+		<td ><img height='50' width='50' name='logo' src="__ROOT__<{$vo.logo}>"></img></td>
+		<td ><input type='text' name='company' value='<{$vo.company}>' disabled size='10'></td>
+		<td ><input type='text' name='dname' value='<{$vo.dname}>' disabled size='10'></td>
+		<td ><input type='text' name='pname' value='<{$vo.pname}>' disabled size='10'></td>
+		<td >
+		<img height='20' width='20' name='picone' src="__ROOT__<{$vo.picone}>"></img>
+		<img height='20' width='20' name='pictwo' src="__ROOT__<{$vo.pictwo}>"></img>
+		<img height='20' width='20' name='picthree' src="__ROOT__<{$vo.picthree}>"></img>
+		</td>
+		<td ><a href="<{:U($vo['prourl'])}>" name='prourl' target='_blank'>预	览</a></td>
+		<td >
+		<div class="btn-group btn-group-xs">
+			<input type='submit' value='修改' class="btn btn-warning"><a href="<{:U('Product/deletepro',array('id'=>$vo['id'],'pid'=>$vo['pid']))}>" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+		</div></td>
+	</tr>
+</form>	
+  </volist>
+  <tr>
+	<td colspan="6"><{$show}></td>
+	</tr>
+  </table>
+
+</div>
+
+			</div>
+		</div>
+</block>

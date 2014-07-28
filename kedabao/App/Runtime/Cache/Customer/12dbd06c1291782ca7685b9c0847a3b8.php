@@ -1,0 +1,66 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html> 
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title><?php echo ($list["company"]); ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' id='camera-css'  href='__CSS__/camera.css' type='text/css' media='all'>
+    <script type='text/javascript' src='__JS__/jquery.min.js'></script>
+    <script type='text/javascript' src='__JS__/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='__JS__/camera.min.js'></script>
+	<script type='text/javascript' src="__JS__/jquery.mobile-1.4.2.min.js"></script>
+	<link href="__CSS__/jquery.mobile-1.4.2.min.css" rel="stylesheet">
+	<link href="__CSS__/bootstrap.css" rel="stylesheet">	
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				height: '200px',
+				time: 500,
+				navigation: false,
+				playPause: false,
+				pagination: false,
+				thumbnails: false
+			});
+		});
+	</script>
+ 
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header" data-theme="b">
+    <img src='__ROOT__<?php echo ($list["logo"]); ?>' height='40' width='40' />
+	<strong><?php echo ($list["company"]); ?></strong>
+  </div>
+  <div data-role="content">
+	<div class="fluid_container">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1" >
+            <div  data-src="__ROOT__<?php echo ($list["picone"]); ?>">
+            </div>
+            <div  data-src="__ROOT__<?php echo ($list["pictwo"]); ?>">
+            </div>
+            <div data-src="__ROOT__<?php echo ($list["picthree"]); ?>">
+            </div>
+        </div><!-- #camera_wrap_1 -->
+    </div><!-- .fluid_container -->
+	</div>
+  <div data-role="collapsible-set">
+	<div data-role="collapsible" data-collapsed="false">
+	<h1>公司简介</h1>
+	<p><?php echo ($list["introduce"]); ?></p>
+	</div>
+	<div data-role="collapsible">
+	<h1>联系方式</h1>
+	<p>
+	<?php echo ($list["phone"]); ?>
+	</p>
+	</div>
+	<div data-role="collapsible">
+	<h1>公司地址</h1>
+	<p><?php echo ($list["address"]); ?></p>
+	</div>
+ </div>
+</div>
+</body> 
+</html>

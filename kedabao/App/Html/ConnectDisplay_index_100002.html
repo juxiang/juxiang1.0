@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>客达宝</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' id='camera-css'  href='/kedabao/Public/Css/camera.css' type='text/css' media='all'>
+    <script type='text/javascript' src='/kedabao/Public/Js/jquery.min.js'></script>
+    <script type='text/javascript' src='/kedabao/Public/Js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='/kedabao/Public/Js/camera.min.js'></script>
+	<script type='text/javascript' src="/kedabao/Public/Js/jquery.mobile-1.4.2.min.js"></script>
+	<link href="/kedabao/Public/Css/jquery.mobile-1.4.2.min.css" rel="stylesheet">
+	<link href="/kedabao/Public/Css/bootstrap.css" rel="stylesheet">	
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				height: '200px',
+				time: 500,
+				navigation: false,
+				playPause: false,
+				pagination: false,
+				thumbnails: false
+			});
+		});
+	</script>
+ 
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header" data-theme="b">
+    <img src='/kedabao/Public/files/images/s_53c72464a89d0.jpg' height='40' width='40' />
+	<strong>客达宝</strong>
+  </div>
+  <div data-role="content">
+	<div class="fluid_container">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1" >
+            <div  data-src="/kedabao/Public/files/images/s_53c72464bd5db.jpg">
+            </div>
+            <div  data-src="/kedabao/Public/files/images/s_53c72464c4723.jpg">
+            </div>
+            <div data-src="/kedabao/Public/files/images/s_53c72464cb86e.jpg">
+            </div>
+        </div><!-- #camera_wrap_1 -->
+    </div><!-- .fluid_container -->
+	</div>
+  <div data-role="collapsible-set">
+	<div data-role="collapsible" data-collapsed="false">
+	<h1>公司简介</h1>
+	<p>时尚不再高高在上，而是触手可及！</p>
+	</div>
+	<div data-role="collapsible">
+	<h1>联系方式</h1>
+	<p>
+	手机：187****8233
+联系人：小张	</p>
+	</div>
+	<div data-role="collapsible">
+	<h1>公司地址</h1>
+	<p>石油化工有限公司的公司地址</p>
+	</div>
+ </div>
+</div>
+</body> 
+</html>

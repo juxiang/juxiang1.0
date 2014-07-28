@@ -1,0 +1,54 @@
+<extend name="Public:base" />
+<block name="title"><title>平台参数设置</title></block>
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+<block name="script">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#collapseFive').addClass('in');
+			$('#collapseOne').removeClass('in');
+			$('#collapseTwo').removeClass('in');
+			$('#collapseThree').removeClass('in');
+			$('#collapseFour').removeClass('in');
+		});
+	</script>
+</block>
+<block name="content">
+	<div id="content" class="col-sm-8">
+	<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i>公司信息</h4>
+				</div> 
+				<div class="panel-body">
+				<form class="form-horizontal" action="<{:U(GROUP_NAME.'/Connect/update')}>" method='post' enctype='multipart/form-data'>
+				<table class="table table-hover table-bordered table-condensed">
+			<tr>
+			<td>公司LOGO</td><td><input type='file' name='logo'/><img height='40' width='40' src="__ROOT__<{$list.logo}>" ><small>图片最佳尺寸：80*80，小于100kb</small></td>
+			<td>公司名称</td><td><input type='text' name='company' value='<{$list.company}>'/></td>
+			<tr>
+			<td>公司图片展示1</td><td><input type='file' name='picone'/><img height='40' width='40' src="__ROOT__<{$list.picone}>" ><small>图片最佳尺寸：80*80，小于100kb</small></td>
+			<td>公司图片展示2</td><td><input type='file' name='pictwo'/><img height='40' width='40' src="__ROOT__<{$list.pictwo}>" ><small>图片最佳尺寸：80*80，小于100kb</small></td>
+			</tr>
+			<tr>
+			<td>公司图片展示3</td><td><input type='file' name='picthree'/><img height='40' width='40' src="__ROOT__<{$list.picthree}>" ><small>图片最佳尺寸：80*80，小于100kb</small></td>
+			</tr>
+			<tr>
+			<td >公司简介</td><td colspan='4'><textarea rows='5' cols="90" name='introduce' /><{$list.introduce}></textarea></td>
+			</tr>
+			<tr>
+			<td>公司联系方式</td><td><textarea rows='5' cols='30' name='phone' /><{$list.phone}></textarea></td>
+			<td>公司地址</td><td><textarea rows='5' cols='30' name='address' /><{$list.address}></textarea></td>
+			</tr>
+			<tr>
+			<td colspan='4' style='text-align:center'>
+				<input type="submit" class="btn btn-warning" value="修改">
+				<a href="<{:U(GROUP_NAME.'/ConnectDisplay/index',array('uid'=>session('uid')))}>" class="btn btn-primary" target="_blank">预览</a>
+			</td>
+			</tr>
+			</table>
+		</form>
+</div>
+</div>
+</div>
+</block>

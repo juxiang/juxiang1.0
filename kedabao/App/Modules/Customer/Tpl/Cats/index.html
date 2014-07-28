@@ -1,0 +1,55 @@
+<extend name="Public:base" />
+<block name="title"><title>分类列表</title></block>
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+<block name="script">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#collapseFour').addClass('in');
+			$('#collapseOne').removeClass('in');
+			$('#collapseTwo').removeClass('in');
+			$('#collapseThree').removeClass('in');
+		});
+	</script>
+</block>
+<block name="content">
+		<div id="content" class="col-sm-8">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i> 分类列表</h4>
+				</div>
+
+				<div class="panel-body">
+	<table class="table table-hover table-bordered table-condensed">
+		<tr>
+		<th >微信菜单</th>
+		<th >分	   类</th>
+		<th >操	   作</th>
+		</tr>
+<volist name='cats' id='vo'>
+<form class="form-horizontal" action='__APP__/Cats/update/cid/<{$vo.id}>' method='post' enctype='multipart/form-data'>
+	<tr>
+		<td >
+		<select name='wx_cats'>
+		<option value="<{$vo.wx_cats}>"><{$vo.wx_cats}></option>
+		</select>
+		</td>
+		<td ><input type='text' name='cats' value='<{$vo.cname}>'></td>
+		<td >
+		<div class="btn-group btn-group-xs">
+			<input value='修改' type='submit' class="btn btn-warning"><a href="__APP__/Cats/delete/cid/<{$vo.id}>" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+		</div>
+	</tr>
+
+</form>	
+  </volist>
+  	<tr>
+		<td colspan="3"><{$show}></td>
+	</tr>
+  </table>
+				</div>
+
+			</div>
+		</div>
+</block>

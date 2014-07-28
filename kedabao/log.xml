@@ -1,0 +1,168 @@
+12:04:23 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520263</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E6%97%B6%E8%A3%85%E9%9D%A2%E6%96%99/uid/100006]]></EventKey>
+</xml>
+12:04:23 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520263</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:04:57 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520296</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/ConnectDisplay/index/uid/100006]]></EventKey>
+</xml>
+12:04:57 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520297</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:06:08 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E5%AE%B6%E7%BA%BA%E9%9D%A2%E6%96%99/uid/100006]]></EventKey>
+</xml>
+12:06:08 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520368</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:06:25 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520385</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::)]]></Content>
+<MsgId>6040959054932801278</MsgId>
+</xml>
+12:06:25 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520385</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[感谢您的留言，我们会尽快回复您！/n 当前时间：2014-07-28 12:06:25]]></Content>
+</xml>
+12:11:41 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520700</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/ConnectDisplay/index/uid/100006]]></EventKey>
+</xml>
+12:11:41 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520701</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:12:01 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520721</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E5%AE%B6%E7%BA%BA%E9%9D%A2%E6%96%99/uid/100006]]></EventKey>
+</xml>
+12:12:01 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520721</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:14:03 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520843</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E6%97%B6%E8%A3%85%E9%9D%A2%E6%96%99/uid/100006]]></EventKey>
+</xml>
+12:14:03 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520843</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:14:57 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406520897</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/ConnectDisplay/index/uid/100006]]></EventKey>
+</xml>
+12:14:57 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406520897</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:19:58 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406521198</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/ConnectDisplay/index/uid/100006]]></EventKey>
+</xml>
+12:19:58 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406521198</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:20:15 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406521215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E6%97%B6%E8%A3%85%E9%9D%A2%E6%96%99/uid/100006]]></EventKey>
+</xml>
+12:20:15 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406521215</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+12:34:45 R <xml><ToUserName><![CDATA[gh_fcd54bee0e32]]></ToUserName>
+<FromUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></FromUserName>
+<CreateTime>1406522085</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E6%97%B6%E8%A3%85%E9%9D%A2%E6%96%99/uid/100006]]></EventKey>
+</xml>
+12:34:45 T <xml>
+<ToUserName><![CDATA[oDXTys35WrRXq5xI6I6FuXhy-IUw]]></ToUserName>
+<FromUserName><![CDATA[gh_fcd54bee0e32]]></FromUserName>
+<CreateTime>1406522085</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>
+14:28:50 R <xml><ToUserName><![CDATA[gh_1dcd5bae56c7]]></ToUserName>
+<FromUserName><![CDATA[o2aNzty0JRUXSkT7waR76SyR848s]]></FromUserName>
+<CreateTime>1406528930</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://huaxianyun.com/kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E7%BA%BA%E7%BB%87%E7%B1%BB/uid/100002]]></EventKey>
+</xml>
+14:28:50 T <xml>
+<ToUserName><![CDATA[o2aNzty0JRUXSkT7waR76SyR848s]]></ToUserName>
+<FromUserName><![CDATA[gh_1dcd5bae56c7]]></FromUserName>
+<CreateTime>1406528930</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: VIEW]]></Content>
+</xml>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><{$_GET['wxcats']}></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+     
+     <script src="__JS__/jquery-1.11.0.js"></script> 
+	 <script src="__JS__/bootstrap.js"></script> 
+	 <link href="__CSS__/bootstrap.css" rel="stylesheet"> 
+	 <style>
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+/* menu */
+.menu{width:80px;height:80px;position:fixed;top:40px;left:60px;background:url(__PUBLIC__/images/menu.png) no-repeat;cursor:move;}
+*html .menu{position:absolute;top:expression(eval(document.documentElement.scrollTop));margin-top:340px;}
+
+.menu .box{width:200px;height:253px;background:url(__PUBLIC__/images/m-bg.png) repeat;position:absolute;top:-88px;left:-30px;display:none;}
+.menu .box a{background:url(__PUBLIC__/Images/m1.png) no-repeat;position:absolute;}
+.menu .box a:hover{background:url(__PUBLIC__/Images/m2.png) no-repeat;}
+.menu .box .t1{background-position:0px 0px;width:49px;height:59px;left:34px;top:8px;}
+.menu .box .t2{background-position:0px -80px;width:49px;height:52px;left:104px;top:24px;}
+.menu .box .t3{background-position:0px -160px;width:58px;height:50px;left:134px;top:84px;}
+.menu .box .t4{background-position:0px -240px;width:54px;height:49px;left:126px;top:154px;}
+.menu .box .t5{background-position:0px -320px;width:50px;height:57px;left:74px;top:189px;}
+.menu .box .t6{background-position:0px -400px;width:50px;height:54px;left:3px;top:185px;}
+.menu .box .t1:hover{background-position:0px 0px;}
+.menu .box .t2:hover{background-position:0px -80px;}
+.menu .box .t3:hover{background-position:0px -160px;}
+.menu .box .t4:hover{background-position:0px -240px;}
+.menu .box .t5:hover{background-position:0px -320px;}
+.menu .box .t6:hover{background-position:0px -400px;}
+ </style>
+ <script type="text/javascript">
+
+//浮动导航条展开与收缩
+$(function () {
+    var box = $('.menu .box');
+    $('.menu').hover(function () {
+        box.stop().show(300);
+    }, function () {
+        box.stop().hide(150);
+    })
+})
+
+//浮动导航条拖动
+$(function () {
+    var box = document.getElementById('fd');
+    box.onmousedown = function (event) {
+        var e = event || window.event,
+  t = e.target || e.srcElement,
+        //鼠标按下时的坐标x1,y1
+  x1 = e.clientX,
+  y1 = e.clientY,
+        //鼠标按下时的左右偏移量
+  dragLeft = this.offsetLeft,
+  dragTop = this.offsetTop;
+        document.onmousemove = function (event) {
+            var e = event || window.event,
+  t = e.target || e.srcElement,
+            //鼠标移动时的动态坐标
+  x2 = e.clientX,
+  y2 = e.clientY,
+            //鼠标移动时的坐标的变化量
+  x = x2 - x1,
+  y = y2 - y1;
+            box.style.left = (dragLeft + x) + 'px';
+            box.style.top = (dragTop + y) + 'px';
+        }
+        document.onmouseup = function () {
+            this.onmousemove = null;
+        }
+    }
+})
+</script>
+</head>
+ <body> 
+ <div class="container">    
+		<a href='javascript:history.go(-1);' class='btn btn-primary'>返回上一页</a>
+</div> 
+<!-- 代码 开始 -->
+<div class="menu" id="fd">
+	<div class="box" style="display:none">
+		<a class="t1" href="http://www.datouwang.com/"></a>
+		<a class="t2" href="http://www.datouwang.com/"></a>
+		<a class="t3" href="http://www.datouwang.com/"></a>
+		<a class="t4" href="http://www.datouwang.com/"></a>
+		<a class="t5" href="http://www.datouwang.com/"></a>
+		<a class="t6" href="http://www.datouwang.com/"></a>
+	</div>
+</div>
+<!-- 代码 结束 -->
+ </body>
+
+</html>

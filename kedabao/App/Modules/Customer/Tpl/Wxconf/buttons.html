@@ -1,0 +1,149 @@
+<extend name="Public:base" />
+<block name="title"><title>微信自定义菜单管理</title></block>
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+<block name="script">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#collapseThree').addClass('in');
+			$('#collapseOne').removeClass('in');
+			$('#collapseTwo').removeClass('in');
+		});
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			var x=document.getElementsByName("grade1")
+			var y=document.getElementsByName("url1")
+			for(var i=0;i<x.length;i++){
+				if(x[i].value==1){
+					y[i].style.display="";
+				}else{
+					y[i].style.display="none";
+				}
+			}
+		}
+		);
+	</script>
+</block>
+<block name="content">
+	<div id="content" class="col-sm-8">
+		<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i> 自定义菜单列表</h4>
+				</div>
+		
+			  <a href="<{:U(GROUP_NAME.'/Wxconf/cremenu')}>" class='btn btn-success' target='_blank'>菜单发布</a>
+			  <small>上次菜单发布时间：
+			<if condition="empty($subtime['subtime'])">
+				未发布过！
+			<else />
+				<{$subtime['subtime']|date='Y年m月d日 H:i',###}>
+			</if>
+			</small>
+			<div class="panel-body">
+			<h4>一级菜单</h4>
+				<table class="table table-hover table-bordered table-condensed">
+					<tr>
+					<th >排	序</th>
+					<th >菜单级别</th>
+					<th >菜 单 名</th>
+					<th >菜单类型</th>
+					<th >菜单跳转链接：</th>
+					<th >操	   作</th>
+					</tr>
+				<volist name='buttons' id='vo'>
+					<form class="form-horizontal" action="<{:U(GROUP_NAME.'/Wxconf/upbutton1',array('id1'=>$vo['id']))}>" method='post' enctype='multipart/form-data'>
+					<tr>
+						<input type="text" id="bu1id" hidden value="<{$vo.id}>"/>
+					<td><input type="text" value="<{$vo.sort}>" name="sort" size="5px"/></td>
+					<td ><select type="text" name="grade1" id="grade1" >
+					<if condition="$vo.grade eq 1">
+		<option value="1" selected >不含子菜单</option>
+		<!-- <option value="2" >二级菜单</option> -->
+		<else />
+		<!-- <option value="1" >一级菜单</option> -->
+		<option value="2" selected >含子菜单</option>
+		</if>
+		</select></td>
+		<td ><input type='text' name='name1' value='<{$vo.name1}>'></td>
+		<td ><select type="text" name="type1" id="type">
+		<if condition="$vo.type eq click">
+		<option value="click" selected>点击</option>
+		<!-- <option value="view">视图</option> -->
+		<else />
+		<!-- <option value="click">点击</option> -->
+		<option value="view" selected>视图</option>
+		</if>
+		</select></td>
+		<td ><!-- <input type='text' name='key1' id='key' value='<{$vo.key}>'>
+		     / --><input type='text' name='url1' id='url' value='<{$vo.url}>' ></td>
+		<td >
+		<div class="btn-group btn-group-xs">
+		<if condition="$Think.session.admin eq admin">
+		<input type='submit'  class="btn btn-warning" value='修改'>
+		<a href="<{:U(GROUP_NAME.'/Wxconf/delbutton1',array('id1'=>$vo['id']))}>" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+		</if>
+		</div>
+		</td>
+	</tr>
+</form>	
+  </volist>
+  </table>
+  <p>注意：请将“公司管理”-“关于我们”的“预览地址”复制到“关于”的“菜单跳转链接”！</p>
+<hr />
+<h4>微信二级菜单</h4>
+	<table class="table table-hover table-bordered table-condensed">
+		<tr>
+		<th>一级菜单</th>
+		</tr>
+<volist name='buttons' id='vo'>
+	<tr>
+		<td ><input type='text' name='name1' value='<{$vo.name1}>' disabled size="10px"></td>
+		<td>
+		
+		<table class="table table-hover table-striped">
+		<tr>
+		<th >排	序</th>
+		<th >二级菜单</th>
+		<th >菜单类型</th>
+		<th >菜单跳转链接：</th>
+		<th >操	   作</th>
+		</tr>
+		<volist name="vo['button2']" id='sub'>
+		<form class="form-horizontal" action="<{:U(GROUP_NAME.'/Wxconf/upbutton2',array('id2'=>$sub['id']))}>" method='post' enctype='multipart/form-data'>
+		<tr>
+		<td><input type="text" value="<{$sub.sort}>" name="sort"  size="5px"/></td>
+		<td ><input type='text' name='name2' value='<{$sub.name2}>'></td>
+		<td ><select type="text" name="type2" id="type">
+		<if condition="$sub.type eq click">
+		<!-- <option value="click" selected>点击</option> -->
+		<option value="view">视图</option></select></td>
+		<else />
+		<!-- <option value="click">点击</option> -->
+		<option value="view" selected>视图</option></select></td>
+		</if>
+		
+		<td ><!-- <input type='text' name='key2' id='key' value='<{$sub.key}>'>
+			/ --><input type='text' name='url2' id='url' value='<{$sub.url}>'>
+		</td>
+		<td >
+		<div class="btn-group btn-group-xs">
+		<input type='submit' value='修改' class="btn btn-warning"><a href="<{:U(GROUP_NAME.'/Wxconf/delbutton2',array('id2'=>$sub['id']))}>" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+		</div>
+		</td>
+		</form>
+		</volist>
+		<tr>
+		</table>
+		</td>
+	</tr>
+
+  </volist>
+  </table>
+  <p>注意：请将“微信显示预览”内菜单的“预览地址”复制到对应的“微信二级菜单”的“菜单跳转链接”！</p>
+  
+</div>
+</div>
+</div>
+</block>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>全部产品</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+     
+     <script src="__JS__/jquery-1.11.0.js"></script> 
+	 <script src="__JS__/bootstrap.js"></script> 
+	 <link href="__CSS__/bootstrap.css" rel="stylesheet"> 
+      
+
+</head>
+<body> 
+<div class="container-fluid"> 
+	<div class="row-fluid"> 
+			 <div class="tabbable  pull-left" style='width:30%; background: #BEDBE9' id="tabs">
+				<ul class="nav nav-lists"  style=" height:614px;">
+				<foreach name='list' item='vo'>
+				<li><a href="#panel<{$vo.id}>" data-toggle="tab" onclick='getdishes(<{$vo.id}>)'><{$vo.cname}></a></li>
+				</foreach>
+				</ul> 
+			</div>
+			<div class='' id='dishes' style='width:70%'>欢迎来到全部产品</div>
+			<div class="tab-content" id='dishes'>
+			<foreach name='list' item='vo'>
+				<div class="tab-pane" id="panel<{$vo.id}>">
+                      		<volist name="vo['dishes']" id="sub">
+								<img alt="这是图片" src='<{$sub.picpath}>' width="100" height="80" class="pull-left">
+        						<strong>&nbsp;&nbsp;<{$sub.dname}></strong>
+								<br />
+								<br />
+                                <a href='<{$sub.url}>' ><input type="button" value="查看详细信息" /></a>
+								<hr />
+							</volist>
+                </div>
+			</foreach>
+			</div>
+			
+			
+	</div> 
+</div>
+<script language="JavaScript">
+function getdishes(id)
+{
+   document.getElementById('dishes').innerHTML=' ';
+   var x=document.getElementById('panel'.id).innerHTML;
+   document.write(x);
+}
+</script>
+</body>
+</html>

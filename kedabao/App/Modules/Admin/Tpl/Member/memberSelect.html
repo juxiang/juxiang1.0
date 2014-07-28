@@ -1,0 +1,44 @@
+<extend name="Public:base" />
+<block name="title"><title>客户选择</title></block>
+<block name="sidebar">
+	<include file="Public:sidebar" />
+</block>
+<block name="content">
+		<div id="content" class="col-sm-8">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><i class="glyphicon glyphicon-header"></i> 客 户 选 择</h4>
+				</div>
+
+				<div class="panel-body">
+					<table class="table table-hover table-bordered table-condensed">
+						<tr>
+							<td>客户编号</td>
+							<td>客 户 名</td>
+							<td>公 司 名</td>
+							<td>备	注</td>
+							<td>操作</td>
+						</tr>
+						<volist name="list" id="vo">
+							<tr>
+								<td><{$vo.uid}></td>
+								<td><{$vo['username']}></td>
+								<td><{$vo['company']}></td>
+								<td><{$vo['content']}></td>
+								<td>
+									<div class="btn-group btn-group-xs">
+										<a href="<{:U('Admin/Member/memberRedirect',array('uid'=>$vo['uid']))}>" class="btn btn-primary">选择</i></a>
+									</div>
+									</td>
+							</tr>
+						</volist>
+							<tr>
+								<td colspan="3"><{$page}></td>
+							</tr>
+					</table>
+				</div>
+
+			</div>
+		</div>
+</block>
+

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title><{$_GET['wxcats']}></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+     <script src="__JS__/jquery-1.11.0.js"></script> 
+	 <script src="__JS__/jquery.mobile-1.4.2.min.js"></script> 
+	 <link href="__CSS__/jquery.mobile-1.4.2.min.css" rel="stylesheet"> 
+</head>
+</head>
+
+<body>
+			<foreach name='list' item='vo'>
+            	<div data-role="page" id="panel<{$vo.id}>">
+                	<ul data-role="listview" data-inset="true">
+                      		<volist name="vo['dishes']" id="sub">
+                            <li>
+                                <a href="<{$sub.url}>" target="_parent" onclick="hideleft();"><img src="<{$sub.picpath}>" alt="这是图片" >
+    							<h2><{$sub.dname}></h2>
+    							<p></p></a>
+  							</li>
+							</volist>
+                </div> 
+			</foreach>
+
+</body>
+</html>

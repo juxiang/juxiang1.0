@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>全棉平布</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">    
+     <!-- <link rel='stylesheet' id='camera-css'  href='/kedabao/Public/Css/camera.css'> -->
+	 <script type='text/javascript' src='/kedabao/Public/Js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='/kedabao/Public/Js/jquery.min.js'></script>
+    <!-- <script type='text/javascript' src='/kedabao/Public/Js/jquery.easing.1.3.js'></script>  -->
+    <!-- <script type='text/javascript' src='/kedabao/Public/Js/camera.min.js'></script> -->
+	<script type='text/javascript' src="/kedabao/Public/Js/jquery.mobile-1.4.2.min.js"></script>
+	<link href="/kedabao/Public/Css/jquery.mobile-1.4.2.min.css" rel="stylesheet">
+	<link href="/kedabao/Public/Css/bootstrap.css" rel="stylesheet" >
+	 <script type="text/javascript">
+	 $(document).ready(function(){
+		
+		$("table").addClass("table table-condensed table-bordered");
+		$("table tr").first().addClass('success');
+	});
+	 </script>
+	 <script>
+	 
+		jQuery(function(){
+			jQuery('#camera_wrap_1').camera({
+				height: '200px',
+				time: 500,
+				navigation: false,
+				playPause: false,
+				pagination: false,
+				thumbnails: false
+			});
+		});
+		
+	</script>
+</head>
+<body>
+<div data-role="page">
+
+  <div data-role="header" data-theme="b">
+    <img src='/kedabao/Public/files/images/s_53d1ca5da5bb8.jpg' height='40' width='40' />
+	<strong>时装面料</strong>
+  </div>
+  <div data-role="content">
+	<img src='/kedabao/Public/files/images/s_53d205a1407a8.jpg' height='320px' width='480px'/>
+  </div>
+  <div data-role="collapsible-set">
+	<div data-role="collapsible" data-collapsed="false">
+	<h1>产品简介</h1>
+	<h4>全棉平布</h4>
+	<p><p>平布的共同特点是，采用平纹组织织制，经纬纱的线密度和织物中经纬纱的密度相同或相近。根据所用经纬纱的粗细，可分为粗平布、中平布和细平布。</p><p><br/></p></p>
+	</div>
+	<div data-role="collapsible">
+	<h1>详细参数</h1>
+	<div class="table-responsive">
+	<p>1、粗平布：其特点是布身粗糙、厚实，布面棉结杂质较多，坚牢耐用；主要用作服装衬布等。</p><p>2、中平布：其特点是结构较紧密，布面平整丰满，质地坚牢，手感较硬；主要用作被里布、衬里布也有用作衬衫裤、被单的。</p><p>3、细平布：其特点是布身细洁柔软，质地轻薄紧密，布面杂质少；主要用作被里布、衬里布也有用作衬衫裤、被单的。</p>	</div>
+	<small></small>
+	</div>
+ </div>
+</div>
+</body></html>

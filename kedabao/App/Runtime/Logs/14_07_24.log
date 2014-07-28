@@ -1,0 +1,2811 @@
+[ 2014-07-24T07:43:02+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-07-24T07:43:07+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.002105s ]
+SQL: SELECT * FROM `members` WHERE ( `username` = 'admin' ) AND ( `password` = '2' ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `wxconf` [ RunTime:0.001508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005561s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2014-07-24T07:43:08+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-07-24T07:43:13+08:00 ] 221.224.47.221 /kedabao/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-07-24T07:43:16+08:00 ] 221.224.47.221 /kedabao/index.php/Admin/Member/memberSelect
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.001961s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `members` LIMIT 1   [ RunTime:0.001158s ]
+SQL: SELECT * FROM `members` ORDER BY uid asc LIMIT 0,8   [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000349s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-07-24T07:43:19+08:00 ] 221.224.47.221 /kedabao/index.php/Admin/Member/memberRedirect/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+
+[ 2014-07-24T07:43:19+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-07-24T07:43:22+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Connect/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.001944s ]
+SQL: SELECT * FROM `connect` WHERE ( `uid` = 100002 ) LIMIT 1   [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c6b5d6574f5c0a9fd52229400ced3507.php 第 50 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c6b5d6574f5c0a9fd52229400ced3507.php 第 111 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010668s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-07-24T07:56:15+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002930s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003586s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032087s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000336s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2014-07-24T07:58:56+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 81 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2014-07-24T07:58:56+08:00 ] 101.226.89.116 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-07-24T07:58:56+08:00 ] 101.226.89.116 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-07-24T07:58:56+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001849s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001168s ]
+
+[ 2014-07-24T07:58:56+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002473s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001706s ]
+
+[ 2014-07-24T07:59:12+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Cats/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `wx_button2` [ RunTime:0.002512s ]
+SQL: SELECT `id`,`name2` FROM `wx_button2` WHERE ( uid=100002 )  [ RunTime:0.001533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/e5f916a1106d7755378c00882c48e10c.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/e5f916a1106d7755378c00882c48e10c.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010357s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000332s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-07-24T07:59:12+08:00 ] 101.226.33.226 /kedabao/index.php/Customer/Cats/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+
+[ 2014-07-24T07:59:12+08:00 ] 101.226.33.226 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000336s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-07-24T07:59:13+08:00 ] 180.153.214.178 /kedabao/index.php/Customer/Dishes/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+
+[ 2014-07-24T07:59:13+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001795s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001512s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001774s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001434s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001408s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001392s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001474s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001459s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001418s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001440s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001432s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2014-07-24T07:59:13+08:00 ] 180.153.214.178 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000317s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-07-24T09:21:08+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002307s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001970s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001692s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 8,8   [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001935s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001609s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001582s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001595s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='95' ) LIMIT 1   [ RunTime:0.001571s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='96' ) LIMIT 1   [ RunTime:0.001607s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='98' ) LIMIT 1   [ RunTime:0.001588s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='99' ) LIMIT 1   [ RunTime:0.002626s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000324s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-07-24T09:21:17+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000602s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002999s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002255s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003525s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015423s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002457s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-07-24T09:21:19+08:00 ] 221.224.47.221 /kedabao/index.php/Product/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001780s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 8,8   [ RunTime:0.002233s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2014-07-24T09:21:23+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001288s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001624s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001201s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001170s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001149s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001197s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001448s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001185s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001157s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001201s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012328s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000406s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-07-24T09:21:26+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001747s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001452s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 8,8   [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001746s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001392s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001358s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001361s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='95' ) LIMIT 1   [ RunTime:0.001360s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='96' ) LIMIT 1   [ RunTime:0.001382s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='98' ) LIMIT 1   [ RunTime:0.001380s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='99' ) LIMIT 1   [ RunTime:0.001394s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012138s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000392s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2014-07-24T09:21:28+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/90/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001981s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 90 ) AND ( `uid` = 100002 )  [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001687s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001083s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001568s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2014-07-24T09:21:28+08:00 ] 101.226.65.106 /kedabao/index.php/Prodisplay/index/pid/90/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+
+[ 2014-07-24T09:21:32+08:00 ] 180.153.214.176 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+
+[ 2014-07-24T09:21:32+08:00 ] 180.153.214.176 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000317s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-07-24T09:21:32+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/88/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-07-24T09:21:36+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/88/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+
+[ 2014-07-24T09:21:40+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/87/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002086s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 87 ) AND ( `uid` = 100002 )  [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001647s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000350s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-07-24T09:21:50+08:00 ] 101.226.89.116 /kedabao/index.php/Prodisplay/index/pid/87/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2014-07-24T09:21:57+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/80/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002035s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 80 ) AND ( `uid` = 100002 )  [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001586s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='80' ) LIMIT 1   [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2014-07-24T09:22:13+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/81/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002327s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 81 ) AND ( `uid` = 100002 )  [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001714s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='81' ) LIMIT 1   [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-07-24T09:22:27+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/86/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002582s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 86 ) AND ( `uid` = 100002 )  [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002226s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001708s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-07-24T09:22:34+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/82/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000631s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007089s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2014-07-24T09:22:39+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/86/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002033s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 86 ) AND ( `uid` = 100002 )  [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001721s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000386s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001920s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-07-24T09:22:47+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/82/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-07-24T09:22:50+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/82/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+
+[ 2014-07-24T09:23:01+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/82/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001896s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 82 ) AND ( `uid` = 100002 )  [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001497s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='82' ) LIMIT 1   [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006991s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2014-07-24T09:33:59+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/88/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001888s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 88 ) AND ( `uid` = 100002 )  [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001504s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006807s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-07-24T09:34:42+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002624s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002417s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001672s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002174s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001622s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001604s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001564s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001579s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001550s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001746s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001500s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2014-07-24T09:34:42+08:00 ] 180.153.214.190 /kedabao/index.php/Dishes/index/p/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+
+[ 2014-07-24T09:34:42+08:00 ] 180.153.214.190 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-07-24T09:34:45+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/77/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002202s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 77 ) AND ( `uid` = 100002 )  [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001771s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='77' ) LIMIT 1   [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2014-07-24T09:34:45+08:00 ] 112.65.193.14 /kedabao/index.php/Prodisplay/index/pid/77/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+
+[ 2014-07-24T09:36:16+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001187s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 8,8   [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001491s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001117s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001122s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001080s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='95' ) LIMIT 1   [ RunTime:0.001094s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='96' ) LIMIT 1   [ RunTime:0.001092s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='98' ) LIMIT 1   [ RunTime:0.001110s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='99' ) LIMIT 1   [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2014-07-24T09:36:18+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/87/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002359s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 87 ) AND ( `uid` = 100002 )  [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001776s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006918s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000326s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-07-24T10:57:17+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001539s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001265s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001885s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001173s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001159s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001141s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001142s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001160s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001154s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001211s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012136s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2014-07-24T10:57:19+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002644s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001905s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001657s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 8,8   [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002380s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001571s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001539s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001576s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='95' ) LIMIT 1   [ RunTime:0.001607s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='96' ) LIMIT 1   [ RunTime:0.001659s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='98' ) LIMIT 1   [ RunTime:0.001609s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='99' ) LIMIT 1   [ RunTime:0.001647s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012078s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2014-07-24T10:57:26+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/82/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002627s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 82 ) AND ( `uid` = 100002 )  [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002518s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='82' ) LIMIT 1   [ RunTime:0.001621s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-07-24T10:58:31+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/update/did/81
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002131s ]
+SQL: SELECT * FROM `dishes` WHERE ( `dname` = '印花泡泡�\�' ) LIMIT 1   [ RunTime:0.001477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2014-07-24T10:58:36+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 81 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-07-24T10:58:36+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002070s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001584s ]
+
+[ 2014-07-24T10:58:36+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001959s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001143s ]
+
+[ 2014-07-24T10:58:51+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 81 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011753s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000402s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-07-24T10:58:51+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002464s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001724s ]
+
+[ 2014-07-24T10:58:51+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002237s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001475s ]
+
+[ 2014-07-24T10:58:52+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002737s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002607s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2014-07-24T10:59:30+08:00 ] 221.224.47.221 /kedabao/index.php/Product/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002611s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001873s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 8,8   [ RunTime:0.002541s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000427s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-07-24T10:59:34+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 81 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010056s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2014-07-24T10:59:34+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002159s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001711s ]
+
+[ 2014-07-24T10:59:34+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002316s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001594s ]
+
+[ 2014-07-24T10:59:35+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001115s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001415s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001056s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001066s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001069s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001044s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001104s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001024s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001053s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012188s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000393s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2014-07-24T10:59:39+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001935s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.002495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-07-24T10:59:45+08:00 ] 221.224.47.221 /kedabao/index.php/Product/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002482s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 8,8   [ RunTime:0.003412s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012193s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2014-07-24T10:59:49+08:00 ] 221.224.47.221 /kedabao/index.php/Product/deletepro/id/57/pid/81
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002323s ]
+SQL: SELECT `picone`,`pictwo`,`picthree` FROM `prodisplay` WHERE ( `id` = 57 ) LIMIT 1   [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001589s ]
+SQL: UPDATE `dishes` SET `isset`=0 WHERE ( `id` = 81 ) [ RunTime:0.001937s ]
+SQL: DELETE FROM `prodisplay` WHERE ( `id` = 57 ) [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005425s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-07-24T10:59:50+08:00 ] 221.224.47.221 /kedabao/index.php/Product/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002642s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002857s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 8,8   [ RunTime:0.003435s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012520s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-07-24T10:59:53+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001149s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001430s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001043s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001003s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001029s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001043s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001054s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001039s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001561s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2014-07-24T10:59:56+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001741s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 8,8   [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002182s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001652s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001651s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001713s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='95' ) LIMIT 1   [ RunTime:0.001583s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='96' ) LIMIT 1   [ RunTime:0.001671s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='98' ) LIMIT 1   [ RunTime:0.001685s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='99' ) LIMIT 1   [ RunTime:0.001645s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2014-07-24T10:59:58+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/delete/did/81
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002140s ]
+SQL: DELETE FROM `dishes` WHERE ( `id` = 81 ) AND ( `isset` = 0 ) [ RunTime:0.002008s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005420s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2014-07-24T11:00:00+08:00 ] 221.224.47.221 /kedabao/index.php/Dishes/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002474s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001679s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 8,8   [ RunTime:0.001692s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002034s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='90' ) LIMIT 1   [ RunTime:0.001589s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001524s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='95' ) LIMIT 1   [ RunTime:0.001507s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='96' ) LIMIT 1   [ RunTime:0.001525s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='98' ) LIMIT 1   [ RunTime:0.001575s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='99' ) LIMIT 1   [ RunTime:0.001592s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000393s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-07-24T11:00:03+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001942s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dishes` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001586s ]
+SQL: SELECT * FROM `dishes` WHERE ( uid=100002 ) ORDER BY cid LIMIT 0,8   [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001945s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='84' ) LIMIT 1   [ RunTime:0.001503s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001451s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='85' ) LIMIT 1   [ RunTime:0.001471s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001481s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001450s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001507s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001485s ]
+SQL: SELECT `cname`,`wx_cats` FROM `cats` WHERE ( 1=1 AND id='88' ) LIMIT 1   [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a0e731de44e71acd9533e01df76b6788.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-07-24T11:00:04+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 81 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2014-07-24T11:00:04+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002077s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001573s ]
+
+[ 2014-07-24T11:00:04+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001746s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001260s ]
+
+[ 2014-07-24T11:01:55+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/doadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001823s ]
+SQL: SELECT * FROM `dishes` WHERE ( `dname` = '印花泡泡�\�' ) LIMIT 1   [ RunTime:0.001234s ]
+NOTIC: [2] md5_file(./Public/files/images/53d077234744d.jpg): failed to open stream: No such file or directory /data/home/hlu022149/htdocs/kedabao/ThinkPHP/Extend/Library/ORG/Net/UploadFile.class.php 第 203 行.
+SQL: INSERT INTO `dishes` (`cid`,`dname`,`uid`,`picpath`) VALUES ('90','印花泡泡�\�','100002','/Public/files/images/s_53d077234744d.jpg') [ RunTime:0.001828s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000304s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2014-07-24T11:01:56+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 81 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/87308d98af2e9b44000ba9ecd10fd642.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000377s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2014-07-24T11:01:56+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002003s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001540s ]
+
+[ 2014-07-24T11:01:56+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001566s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001068s ]
+
+[ 2014-07-24T11:01:58+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002488s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.002768s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2014-07-24T11:02:00+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 121 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 182 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011425s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000392s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-07-24T11:02:01+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001534s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001029s ]
+
+[ 2014-07-24T11:02:01+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002067s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001586s ]
+
+[ 2014-07-24T11:02:01+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getproducts?cats=84
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002088s ]
+SQL: SELECT `id`,`cid`,`dname`,`isset` FROM `dishes` WHERE ( `cid` = 84 ) AND ( `uid` = 100002 )  [ RunTime:0.001511s ]
+
+[ 2014-07-24T11:02:07+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002431s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002661s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003102s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2014-07-24T11:02:53+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/80/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002690s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 80 ) AND ( `uid` = 100002 )  [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002091s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='80' ) LIMIT 1   [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-07-24T11:03:08+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000602s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 121 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 182 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011131s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2014-07-24T11:03:08+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001586s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001103s ]
+
+[ 2014-07-24T11:03:08+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001508s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001151s ]
+
+[ 2014-07-24T11:03:08+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getproducts?cats=84
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002281s ]
+SQL: SELECT `id`,`cid`,`dname`,`isset` FROM `dishes` WHERE ( `cid` = 84 ) AND ( `uid` = 100002 )  [ RunTime:0.001254s ]
+
+[ 2014-07-24T11:03:40+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getproducts?cats=90
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002687s ]
+SQL: SELECT `id`,`cid`,`dname`,`isset` FROM `dishes` WHERE ( `cid` = 90 ) AND ( `uid` = 100002 )  [ RunTime:0.001834s ]
+
+[ 2014-07-24T11:03:53+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/doadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002849s ]
+NOTIC: [2] md5_file(./Public/files/images/53d077997bc9c.jpg): failed to open stream: No such file or directory /data/home/hlu022149/htdocs/kedabao/ThinkPHP/Extend/Library/ORG/Net/UploadFile.class.php 第 203 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.002511s ]
+SQL: SELECT `logo` FROM `connect` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001812s ]
+SQL: SELECT `cname` FROM `cats` WHERE ( `id` = 90 ) LIMIT 1   [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002397s ]
+SQL: SELECT `dname` FROM `dishes` WHERE ( `id` = 91 ) LIMIT 1   [ RunTime:0.001527s ]
+SQL: INSERT INTO `prodisplay` (`company`,`did`,`pid`,`introduce`,`table`,`capability`,`picone`,`logo`,`dname`,`pname`,`cretime`,`prourl`,`uid`) VALUES ('纺织�\�',90,91,'<p>泡泡纱是棉织物中具有特殊外观风格特征的织物，采用轻薄平纹细布加工而成。布面呈现均匀密布凸凹不平的小泡泡�\�</p>','<p>穿着时不贴身，有凉爽感、洗后不需熨烫，宜用作童装、女衫、衣裙、睡衣等�\�</p>','','/Public/files/images/s_53d077997bc9c.jpg','/Public/files/images/s_53c72464a89d0.jpg','泡泡�\�','印花泡泡�\�',1406171033,'/Prodisplay/index/pid/91/uid/100002',100002) [ RunTime:0.001945s ]
+SQL: UPDATE `dishes` SET `url`='/Prodisplay/index/pid/91/uid/100002',`isset`=1 WHERE ( `id` = 91 ) [ RunTime:0.002433s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-07-24T11:03:55+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 121 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 182 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-07-24T11:03:55+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001665s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001169s ]
+
+[ 2014-07-24T11:03:55+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001785s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001279s ]
+
+[ 2014-07-24T11:03:55+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getproducts?cats=84
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001757s ]
+SQL: SELECT `id`,`cid`,`dname`,`isset` FROM `dishes` WHERE ( `cid` = 84 ) AND ( `uid` = 100002 )  [ RunTime:0.001145s ]
+
+[ 2014-07-24T11:03:57+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002903s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003181s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-07-24T11:03:57+08:00 ] 221.224.47.221 /kedabao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000341s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2014-07-24T11:04:01+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/91/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002296s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 91 ) AND ( `uid` = 100002 )  [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001898s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001574s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2014-07-24T11:40:34+08:00 ] 101.226.33.238 /kedabao/index.php/Product/deletepro/id/57/pid/81
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+
+[ 2014-07-24T11:40:34+08:00 ] 101.226.33.238 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2014-07-24T11:43:43+08:00 ] 180.153.206.37 /kedabao/index.php/Customer/Dishes/getproducts?cats=90
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-07-24T11:43:43+08:00 ] 180.153.206.37 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005212s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-07-24T11:47:07+08:00 ] 101.226.66.191 /kedabao/index.php/Prodisplay/index/pid/91/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002523s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 91 ) AND ( `uid` = 100002 )  [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001949s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.001039s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000329s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2014-07-24T12:53:38+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 121 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/b311b76975bce5fa76f782338b1bec90.php 第 182 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000392s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-07-24T12:53:38+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getwxcats
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.001618s ]
+NOTIC: [8] Undefined index: wx_cats /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/DishesAction.class.php 第 96 行.
+SQL: SELECT `wx_cats` FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001219s ]
+
+[ 2014-07-24T12:53:38+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getcats?wxcats=%E7%BA%BA%E7%BB%87%E7%B1%BB
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002331s ]
+SQL: SELECT `cname`,`id` FROM `cats` WHERE ( `wx_cats` = '纺织�\�' ) AND ( `uid` = 100002 )  [ RunTime:0.001567s ]
+
+[ 2014-07-24T12:53:38+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Dishes/getproducts?cats=84
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000602s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002035s ]
+SQL: SELECT `id`,`cid`,`dname`,`isset` FROM `dishes` WHERE ( `cid` = 84 ) AND ( `uid` = 100002 )  [ RunTime:0.001430s ]
+
+[ 2014-07-24T12:53:41+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.001919s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.002574s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012114s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000435s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2014-07-24T12:53:41+08:00 ] 221.224.47.221 /kedabao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-07-24T13:01:05+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/79/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002320s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 79 ) AND ( `uid` = 100002 )  [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001688s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='79' ) LIMIT 1   [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2014-07-24T13:01:59+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/86/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002455s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 86 ) AND ( `uid` = 100002 )  [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002389s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='86' ) LIMIT 1   [ RunTime:0.001581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-07-24T13:02:05+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/72/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000349s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-07-24T13:02:27+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-07-24T13:02:30+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000602s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.001879s ]
+SQL: SELECT * FROM `members` WHERE ( `username` = 'admin' ) AND ( `password` = '2' ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `wxconf` [ RunTime:0.001623s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005639s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001417s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-07-24T13:02:31+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-07-24T13:03:11+08:00 ] 221.224.47.221 /kedabao/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000337s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2014-07-24T13:03:15+08:00 ] 221.224.47.221 /kedabao/index.php/Admin/Member/memberSelect
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.001832s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `members` LIMIT 1   [ RunTime:0.001137s ]
+SQL: SELECT * FROM `members` ORDER BY uid asc LIMIT 0,8   [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-07-24T13:03:16+08:00 ] 221.224.47.221 /kedabao/index.php/Admin/Member/memberRedirect/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+
+[ 2014-07-24T13:03:16+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009157s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2014-07-24T13:03:29+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002481s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002517s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003418s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2014-07-24T13:03:29+08:00 ] 221.224.47.221 /kedabao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-07-24T13:03:54+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/75/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002879s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 75 ) AND ( `uid` = 100002 )  [ RunTime:0.001753s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002313s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='75' ) LIMIT 1   [ RunTime:0.001469s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000324s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-07-24T13:04:46+08:00 ] 221.224.47.221 /kedabao/index.php/Product/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002294s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002119s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 8,8   [ RunTime:0.003020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012057s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000427s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-07-24T13:04:52+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/87/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002296s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 87 ) AND ( `uid` = 100002 )  [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.001504s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='87' ) LIMIT 1   [ RunTime:0.001018s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006931s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-07-24T13:05:39+08:00 ] 221.224.47.221 /kedabao/index.php/Customer/Product/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002647s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `prodisplay` WHERE ( uid=100002 ) LIMIT 1   [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002490s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( uid=100002 ) ORDER BY cretime desc LIMIT 0,8   [ RunTime:0.003643s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 49 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/c81065efe2e8401878db037f2cd6caea.php 第 110 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002353s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2014-07-24T13:05:39+08:00 ] 221.224.47.221 /kedabao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 40 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /data/home/hlu022149/htdocs/kedabao/App/Runtime/Cache/Customer/a69567ef7d026f560fbb862e1e569254.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009073s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000356s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2014-07-24T13:05:45+08:00 ] 221.224.47.221 /kedabao/index.php/Prodisplay/index/pid/79/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.002724s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 79 ) AND ( `uid` = 100002 )  [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002093s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='79' ) LIMIT 1   [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2014-07-24T18:42:50+08:00 ] 223.104.4.204 /kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E7%BA%BA%E7%BB%87%E7%B1%BB/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002125s ]
+SQL: SELECT * FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002152s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='84' )  [ RunTime:0.001577s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='85' )  [ RunTime:0.001567s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='86' )  [ RunTime:0.001594s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='87' )  [ RunTime:0.001580s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='88' )  [ RunTime:0.001746s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='90' )  [ RunTime:0.001593s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='91' )  [ RunTime:0.001532s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='95' )  [ RunTime:0.001534s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='96' )  [ RunTime:0.001532s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='98' )  [ RunTime:0.001548s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='99' )  [ RunTime:0.001500s ]
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008358s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2014-07-24T18:42:57+08:00 ] 223.104.4.204 /kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E7%BA%BA%E7%BB%87%E7%B1%BB/uid/100002/lid/90
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002263s ]
+SQL: SELECT * FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002149s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='84' )  [ RunTime:0.001674s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='85' )  [ RunTime:0.001681s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='86' )  [ RunTime:0.001706s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='87' )  [ RunTime:0.001690s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='88' )  [ RunTime:0.001714s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='90' )  [ RunTime:0.001672s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='91' )  [ RunTime:0.001729s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='95' )  [ RunTime:0.001698s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='96' )  [ RunTime:0.001693s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='98' )  [ RunTime:0.001824s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='99' )  [ RunTime:0.001669s ]
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008540s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-07-24T18:42:59+08:00 ] 223.104.4.204 /kedabao/index.php/Prodisplay/index/pid/80/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `prodisplay` [ RunTime:0.003022s ]
+SQL: SELECT * FROM `prodisplay` WHERE ( `pid` = 80 ) AND ( `uid` = 100002 )  [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002439s ]
+SQL: SELECT `picpath` FROM `dishes` WHERE ( 1=1 AND id='80' ) LIMIT 1   [ RunTime:0.001773s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000337s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001568s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2014-07-24T18:44:25+08:00 ] 223.104.4.204 /kedabao/index.php/Customer/ConnectDisplay/index/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.002010s ]
+SQL: SELECT * FROM `connect` WHERE ( `uid` = 100002 ) LIMIT 1   [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005873s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-07-24T18:47:20+08:00 ] 223.104.4.204 /kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E7%BA%BA%E7%BB%87%E7%B1%BB/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002360s ]
+SQL: SELECT * FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001804s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002359s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='84' )  [ RunTime:0.001685s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='85' )  [ RunTime:0.001726s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='86' )  [ RunTime:0.001786s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='87' )  [ RunTime:0.001609s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='88' )  [ RunTime:0.001679s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='90' )  [ RunTime:0.001710s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='91' )  [ RunTime:0.001681s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='95' )  [ RunTime:0.001709s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='96' )  [ RunTime:0.001676s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='98' )  [ RunTime:0.001765s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='99' )  [ RunTime:0.001765s ]
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008395s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-07-24T18:53:14+08:00 ] 122.225.73.78 /kedabao/index.php/Customer/Wxdisplay/index/wxcats/%E7%BA%BA%E7%BB%87%E7%B1%BB/uid/100002
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `cats` [ RunTime:0.002229s ]
+SQL: SELECT * FROM `cats` WHERE ( uid=100002 )  [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `dishes` [ RunTime:0.002325s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='84' )  [ RunTime:0.001776s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='85' )  [ RunTime:0.001658s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='86' )  [ RunTime:0.001665s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='87' )  [ RunTime:0.001669s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='88' )  [ RunTime:0.001640s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='90' )  [ RunTime:0.001641s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='91' )  [ RunTime:0.001623s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='95' )  [ RunTime:0.001620s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='96' )  [ RunTime:0.001653s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='98' )  [ RunTime:0.001648s ]
+SQL: SELECT `dname`,`picpath`,`url`,`isset` FROM `dishes` WHERE ( isset=1 AND cid='99' )  [ RunTime:0.001788s ]
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+NOTIC: [2] unlink() expects parameter 1 to be string, array given /data/home/hlu022149/htdocs/kedabao/App/Modules/Customer/Action/WxdisplayAction.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008378s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
